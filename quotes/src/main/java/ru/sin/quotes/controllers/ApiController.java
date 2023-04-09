@@ -54,9 +54,4 @@ public class ApiController {
         var res = service.getRandom();
         return new ResponseEntity<>(res, HttpStatus.OK);
     }
-//    @GetMapping("/randomList")
-//    public ResponseEntity<List<Quote>> getRandomList() {
-//        var res = repository.findAll(Sort.by("random()"));
-//        return new ResponseEntity<>(res, HttpStatus.OK);
-//    }
 }
